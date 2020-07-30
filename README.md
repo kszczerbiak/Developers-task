@@ -10,6 +10,8 @@ If you want to run tests u need node package manager (NPM) installed on your dev
 2. Open console and type ,,npm install" 
 3. After installation type ,,npm run test".
 
+If you have any error, please update node.js and npm to latest version.
+
 # Used technologies
 - HTML,
 - JS,
