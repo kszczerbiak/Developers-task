@@ -8,7 +8,7 @@ Simply open index.html in your browser
 If you want to run tests u need node package manager (NPM) installed on your device and then:
 1. Go to project directory.
 2. Open console and type ,,npm install" 
-3. After installation type npm run test.
+3. After installation type ,,npm run test".
 
 # Used technologies
 - HTML,
