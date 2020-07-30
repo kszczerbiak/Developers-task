@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple polynomial addition calculator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script type="text/javascript" src="script/polynomial.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Simple polynomial addition calculator</h1>
+                    <h4>Example polynomial: 2x^2 + 3x + 1</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-group">First polynomial</label>
+                            <input class="form-control" type="text" id="first">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-group">Second polynomial</label>
+                            <input class="form-control" type="text" id="second">
+                        </div>
+                        <button class="btn btn-primary" type="button" onClick="calculate()">Calculate</button>
+                    </form>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+            </br>
+                <h1 id="res"></h1>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
